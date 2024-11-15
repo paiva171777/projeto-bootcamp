@@ -19,16 +19,16 @@ Laços de repetição: Para permitir que o usuário realize várias operações.
 #include <stdio.h>
 
 int main() {
-    char operator;
+    char operacao;
     double num1, num2, result;
 
     printf("Digite a operacao (+, -, *, /): ");
-    scanf(" %c", &operator);
+    scanf(" %c", &operacao);
 
     printf("Digite dois numeros: ");
     scanf("%lf %lf", &num1, &num2);
 
-    switch (operator) {
+    switch (operacao) {
         case '+':
             result = num1 + num2;
             break;
@@ -50,7 +50,7 @@ int main() {
             return 1;
     }
 
-    printf("%.2lf %c %.2lf = %.2lf\n", num1, operator, num2, result);
+    printf("%.2lf %c %.2lf = %.2lf\n", num1, operaçao, num2, resultado);
 
     return 0;
 }
