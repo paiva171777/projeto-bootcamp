@@ -1,6 +1,6 @@
 # projeto-bootcamp
 //Ideia para o projeto: Calculadora Simples
-//Uma calculadora simples é um ótimo cimeço para um projeto em C, pois abrange conceitos básicos como:
+//Uma calculadora simples é um ótimo começo para um projeto em C, pois abrange conceitos básicos como:
 
 Entrada e saída de dados: Para receber os números e operações do usuário.
 Operadores aritméticos: Para realizar as operações matemáticas.
